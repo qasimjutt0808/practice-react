@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './signup.css'; // Importing CSS file
+import './signup.css';
 
 function SignUp() {
   const [email, setEmail] = useState('');
@@ -39,7 +39,7 @@ function SignUp() {
           type="password"
         /><br /><br />
 
-        <button onClick={addTask}>Submit</button>
+        <button onClick={addTask}>Submitted</button>
       </div>
     </div>
   );
