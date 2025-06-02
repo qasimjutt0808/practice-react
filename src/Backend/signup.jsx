@@ -38,7 +38,7 @@ function SignUp() {
           placeholder="Password"
           type="password"
         /><br /><br />
-        <button onClick={addTask}>Submitted</button>
+        <button onClick={addTask}>Submit</button>
       </div>
     </div>
   );
